@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { demoScripts, type DemoScript } from './demoScripts';
+import { demoScripts } from './demoScripts';
 import { trackEvent, EVENTS } from '@/components/analytics/events';
 
 type Phase = 'idle' | 'typing' | 'thinking' | 'organizing' | 'done';

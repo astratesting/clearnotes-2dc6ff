@@ -15,9 +15,7 @@ export default function Step({
 }: StepProps) {
   return (
     <div
-      className={`grid md:grid-cols-2 gap-8 md:gap-12 items-center ${
-        reversed ? 'md:direction-rtl' : ''
-      }`}
+      className={`grid md:grid-cols-2 gap-8 md:gap-12 items-center`}
     >
       <div className={`relative ${reversed ? 'md:order-2 md:text-left' : ''}`}>
         {/* Watermark number */}
